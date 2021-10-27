@@ -10,14 +10,14 @@
 		"Other"
 	],
 	"activationEvents": [
-        "onCommand:search-blog-extension.helloWorld"
+        "onCommand:search-blog-extension.searchWdsBlogExample"
 	],
 	"browser": "./dist/web/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "search-blog-extension.helloWorld",
-				"title": "Hello World"
+				"command": "search-blog-extension.searchWdsBlogExample",
+				"title": "Search WDS Blog Example"
 			}
 		]
 	},
