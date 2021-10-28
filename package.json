@@ -22,11 +22,11 @@
 		"commands": [
 			{
 				"command": "search-github-users-extension.getTopGithubUsers",
-				"title": "Get Top Github Users"
+				"title": "GitHub: Get users list"
 			},
 			{
 				"command": "search-github-users-extension.searchGithubUser",
-				"title": "Search A Github User by their Username"
+				"title": "GitHub: Search by Username"
 			}
 		]
 	},
