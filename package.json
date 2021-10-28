@@ -1,23 +1,32 @@
 {
-	"name": "search-blog-extension",
-	"displayName": "Search Blog Extension",
+	"name": "search-github-users-extension",
+	"displayName": "Search Github Users Extension",
 	"description": "",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.61.0"
 	},
+	"author": {
+		"name": "Adarsh Pandey",
+		"url": "https://www.adarshpandey.in"
+	},
 	"categories": [
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:search-blog-extension.searchWdsBlogExample"
+		"onCommand:search-github-users-extension.getTopGithubUsers",
+		"onCommand:search-github-users-extension.searchGithubUser"
 	],
 	"browser": "./dist/web/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "search-blog-extension.searchWdsBlogExample",
-				"title": "Search WDS Blog Example"
+				"command": "search-github-users-extension.getTopGithubUsers",
+				"title": "Get Top Github Users"
+			},
+			{
+				"command": "search-github-users-extension.searchGithubUser",
+				"title": "Search A Github User by their Username"
 			}
 		]
 	},
