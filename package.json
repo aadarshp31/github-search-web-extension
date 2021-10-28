@@ -10,6 +10,7 @@
 		"name": "Adarsh Pandey",
 		"url": "https://www.adarshpandey.in"
 	},
+	"publisher": "adarshpandeyin",
 	"categories": [
 		"Other"
 	],
@@ -30,6 +31,15 @@
 			}
 		]
 	},
+	"repository": {
+    "type": "git",
+    "url": "git+https://github.com/aadarshp31/github-search-web-extension.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aadarshp31/github-search-web-extension/issues"
+  },
+  "homepage": "https://github.com/aadarshp31/github-search-web-extension#readme",
 	"scripts": {
 		"test": "vscode-test-web --browserType=chromium --extensionDevelopmentPath=. --extensionTestsPath=dist/web/test/suite/index.js",
 		"pretest": "npm run compile-web",
