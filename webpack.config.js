@@ -50,11 +50,11 @@ const webExtensionConfig = {
 	},
 	plugins: [
 		new webpack.ProvidePlugin({
-			process: 'process/browser', // provide a shim for the global `process` variable
+			process: 'process/browser' // provide a shim for the global `process` variable
 		}),
 	],
 	externals: {
-		'vscode': 'commonjs vscode', // ignored because it doesn't exist
+		'vscode': 'commonjs vscode' // ignored because it doesn't exist
 	},
 	performance: {
 		hints: false
