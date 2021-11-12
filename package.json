@@ -3,7 +3,7 @@
 	"displayName": "Search Github Users Extension",
 	"description": "",
 	"icon": "icon-512x512.png",
-	"version": "0.0.3",
+	"version": "0.0.5",
 	"engines": {
 		"vscode": "^1.61.0"
 	},
@@ -33,14 +33,14 @@
 		]
 	},
 	"repository": {
-    "type": "git",
-    "url": "https://github.com/aadarshp31/github-search-web-extension.git"
-  },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/aadarshp31/github-search-web-extension/issues"
-  },
-  "homepage": "https://github.com/aadarshp31/github-search-web-extension#readme",
+		"type": "git",
+		"url": "https://github.com/aadarshp31/github-search-web-extension.git"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/aadarshp31/github-search-web-extension/issues"
+	},
+	"homepage": "https://github.com/aadarshp31/github-search-web-extension#readme",
 	"scripts": {
 		"test": "vscode-test-web --browserType=chromium --extensionDevelopmentPath=. --extensionTestsPath=dist/web/test/suite/index.js",
 		"pretest": "npm run compile-web",
